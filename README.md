@@ -1,4 +1,4 @@
-[![YouTube thumbnail](./doc/thumb.png)]
+![YouTube thumbnail](./doc/thumb.png)
 
 ## Stack
 
