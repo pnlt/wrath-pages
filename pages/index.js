@@ -16,7 +16,7 @@ import { BioSection, BioYear } from '../components/bio'
 import Layout from '../components/layouts/article'
 import Section from '../components/section'
 import { GridItem } from '../components/grid-item'
-import { IoLogoTwitter, IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
+import { _IoLogoTwitter, _IoLogoInstagram, IoLogoGithub } from 'react-icons/io5'
 import thumbYouTube from '../public/images/links/githubProfile.png'
 import thumbInkdrop from '../public/images/works/logo_eyecatch.png'
 import Image from 'next/image'
@@ -124,7 +124,7 @@ const Home = () => (
         </BioSection>
         <BioSection>
           <BioYear>2024</BioYear>
-          Participated in Global Game Jam, creating a complete mobile game in just 48 hours under the theme "Make Me Laugh". The tight deadline pushed our creativity and teamwork to new heights
+          Participated in Global Game Jam, creating a complete mobile game in just 48 hours under the theme &quot;Make Me Laugh&quot;. The tight deadline pushed our creativity and teamwork to new heights
         </BioSection>
         <BioSection>
           <BioYear>2025</BioYear>
@@ -165,7 +165,7 @@ const Home = () => (
                 colorScheme="teal"
                 leftIcon={<IoLogoGithub />}
               >
-                @pnlt(Wrath's leader)
+                @pnlt(Wrath&apos;s leader)
               </Button>
             </Link>
           </ListItem>
@@ -210,7 +210,7 @@ const Home = () => (
             title="Github profile"
             thumbnail={thumbYouTube}
           >
-            Wrath's leader github pages (currently don't have wrath organization yet)
+            Wrath&apos;s leader github pages (currently don&apos;t have wrath organization yet)
           </GridItem>
           <GridItem
             href="/works/inkdrop"

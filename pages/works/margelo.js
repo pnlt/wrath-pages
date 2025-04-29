@@ -4,7 +4,7 @@ import {
   Link,
   List,
   ListItem,
-  AspectRatio
+  _AspectRatio
 } from '@chakra-ui/react'
 import Layout from '../../components/layouts/article'
 import { ExternalLinkIcon } from '@chakra-ui/icons'
